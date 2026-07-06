@@ -328,7 +328,7 @@ npx expo prebuild --clean
 npx expo run:ios
 
 # Quick preview via Expo Go
-npx expo start
+yarn start
 ```
 
 **Android SDK Setup (Linux/macOS)**
