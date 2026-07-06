@@ -300,9 +300,8 @@ The following table outlines planned improvements based on active issues and com
 
 **1. Fork and Clone**
 ```bash
-git clone https://github.com/<your-username>/UltimateHealth.git
+git clone [https://github.com/](https://github.com/)<your-username>/UltimateHealth.git
 cd UltimateHealth
-```
 
 **2. Configure Environment**
 ```bash
