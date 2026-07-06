@@ -333,9 +333,14 @@ yarn start
 
 **Android SDK Setup (Linux/macOS)**
 ```bash
-chmod +x setup-android.sh
-./setup-android.sh
-```
+# Add to ~/.bashrc or ~/.zshrc
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Then reload
+source ~/.bashrc
 
 **Install Expo and EAS CLI**
 ```bash
